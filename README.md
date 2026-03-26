@@ -3,11 +3,10 @@
 # Project Structure
 
 FintechReconciliation/
-│
-├─ 01_Create_DB_and_Tables.sql      -- baza + tabele + generowanie danych
-├─ 02_Views_and_Procedures.sql      -- widoki + procedury + opcjonalne testowe exec
-├─ 03_Reconciliation_Check.sql      -- kwerendy: CTE, window, anomaly, agregacje
-└─ README.md                        -- opis projektu + instrukcja uruchomienia
+- 01_Create_DB_and_Tables.sql      -- DB + tables + data load
+- 02_Views_and_Procedures.sql      -- views + procedures
+- 03_Reconciliation_Check.sql      -- reconciliation queries
+- README.md                       
 
 # Overview
 
