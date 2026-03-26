@@ -51,7 +51,6 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    -- Add log to AuditLog table
     INSERT INTO dbo.AuditLog (EventTime, Message)
     SELECT 
         GETDATE(), 
