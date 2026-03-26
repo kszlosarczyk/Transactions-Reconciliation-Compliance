@@ -58,21 +58,21 @@ The project includes:
 
 # Features
 
-1. Reconciliation Check
+1. Reconciliation Check: 
 Identifies completed transactions that are missing settlements or have mismatched amounts.
 Highlights potential financial and compliance issues.
-2. Behavioral Analysis
+2. Behavioral Analysis: 
 Tracks cumulative transaction amounts per user.
 Calculates average user spend using window functions.
-3. Anomaly Detection
+3. Anomaly Detection: 
 Identifies transactions >2 standard deviations above the mean.
 Detects unusual activity or potential errors.
-4. Aggregated Stats
+4. Aggregated Stats: 
 Summarizes transaction count, total and average amount by status.
 Useful for dashboard reporting.
-5. Compliance View
+5. Compliance View: 
 vw_ReconciliationIssues provides an easy interface for monitoring reconciliation problems.
-6. Stored Procedure
+6. Stored Procedure: 
 sp_CheckReconciliationIssues logs issues automatically into AuditLog.
 
 
