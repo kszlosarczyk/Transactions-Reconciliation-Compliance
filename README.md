@@ -27,27 +27,30 @@ The project includes:
 
 ## Transactions Table
 
-Column;Type	Description
-TransactionID;INT (PK);Unique transaction identifier
-UserID;INT;ID of the user making the transaction
-Amount;DECIMAL(10,2);Transaction amount
-Status;VARCHAR(20);Transaction status (completed, pending, failed)
-CreatedAt;DATETIME;Timestamp of transaction creation
+| Column        | Type           | Description                                      |
+|---------------|----------------|--------------------------------------------------|
+| TransactionID | INT (PK)       | Unique transaction identifier                    |
+| UserID        | INT            | ID of the user making the transaction            |
+| Amount        | DECIMAL(10,2)  | Transaction amount                               |
+| Status        | VARCHAR(20)    | Transaction status (completed, pending, failed)  |
+| CreatedAt     | DATETIME       | Timestamp of transaction creation                |
 
 ## Settlements Table
 
-Column - Type - Description
-SettlementID - INT (PK) - Unique settlement identifier
-TransactionID - INT - Transaction reference
-SettledAmount - DECIMAL(10,2) - Amount settled
-SettledAt - DATETIME - Timestamp of settlement
+| Column         | Type           | Description                     |
+|----------------|----------------|---------------------------------|
+| SettlementID   | INT (PK)       | Unique settlement identifier    |
+| TransactionID  | INT            | Transaction reference           |
+| SettledAmount  | DECIMAL(10,2)  | Amount settled                  |
+| SettledAt      | DATETIME       | Timestamp of settlement         |
 
 ## AuditLog Table
 
-Column - Type - Description
-AuditID - INT (PK) - Auto-increment ID
-EventTime - DATETIME - Time of the logged event
-Message - NVARCHAR - Description of the issue
+| Column    | Type        | Description                    |
+|-----------|-------------|--------------------------------|
+| AuditID   | INT (PK)    | Auto-increment ID              |
+| EventTime | DATETIME    | Time of the logged event       |
+| Message   | NVARCHAR    | Description of the issue       |
 
 # Features
 
