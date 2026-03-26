@@ -68,10 +68,12 @@ GROUP BY Status;
 GO
 
 -- Saving data to AuditLog table
+	
 EXEC dbo.sp_CheckReconciliationIssues;
 GO
 
--- Audit Log tableCheck
+-- Audit Log table check
+	
 SELECT * 
 FROM dbo.AuditLog;
 GO
