@@ -3,14 +3,14 @@
 # Project Structure
 
 FintechReconciliation/
--- README.md  
+- README.md  
 1. Data/
--- Settlements.csv
--- Transactions.csv
+- Settlements.csv
+- Transactions.csv
 2. SQL/
--- 01_Create_DB_and_Tables.sql      -- DB + tables + data load
--- 02_Views_and_Procedures.sql      -- views + procedures
--- 03_Reconciliation_Check.sql      -- reconciliation queries                     
+- 01_Create_DB_and_Tables.sql      -- DB + tables + data load
+- 02_Views_and_Procedures.sql      -- views + procedures
+- 03_Reconciliation_Check.sql      -- reconciliation queries                     
 
 # Overview
 
