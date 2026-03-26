@@ -74,9 +74,9 @@ sp_CheckReconciliationIssues logs issues automatically into AuditLog.
 
 # How to Run
 
-1. Open and execute 01_Create_DB_and_Tables.sql and execute in SQL Server Management Studio.
-2. Open and execute 02_Views_and_Procedures.sql and execute.
-3. Open and execute 03_Reconciliation_Check.sql to perform analyses and generate reports.
+1. Open 01_Create_DB_and_Tables.sql and execute in SQL Server Management Studio.
+2. Open 02_Views_and_Procedures.sql and execute.
+3. Open 03_Reconciliation_Check.sql and execute to perform analyses and generate reports.
 
 # Notes
 Data is simulated for demonstration purposes. The project can be extended to include dashboard reports, automated alerts or integration with BI tools.
