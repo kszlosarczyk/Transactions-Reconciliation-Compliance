@@ -36,18 +36,18 @@ CreatedAt;DATETIME;Timestamp of transaction creation
 
 ## Settlements Table
 
-Column;Type;Description
-SettlementID;INT (PK);Unique settlement identifier
-TransactionID;INT;Transaction reference
-SettledAmount;DECIMAL(10,2);Amount settled
-SettledAt;DATETIME;Timestamp of settlement
+Column - Type - Description
+SettlementID - INT (PK) - Unique settlement identifier
+TransactionID - INT - Transaction reference
+SettledAmount - DECIMAL(10,2) - Amount settled
+SettledAt - DATETIME - Timestamp of settlement
 
 ## AuditLog Table
 
-Column;Type;Description
-AuditID;INT (PK);Auto-increment ID
-EventTime;DATETIME;Time of the logged event
-Message;NVARCHAR;Description of the issue
+Column - Type - Description
+AuditID - INT (PK) - Auto-increment ID
+EventTime - DATETIME - Time of the logged event
+Message - NVARCHAR - Description of the issue
 
 # Features
 
@@ -71,9 +71,8 @@ sp_CheckReconciliationIssues logs issues automatically into AuditLog.
 
 # How to Run
 
-Option 1: Sequential Files
 Open 01_Create_DB_and_Tables.sql and execute in SQL Server Management Studio.
-Open 02_Views_and_Procedures.sql and execute. Optionally run EXEC sp_CheckReconciliationIssues; to populate the audit log.
+Open 02_Views_and_Procedures.sql and execute.
 Open 03_Reconciliation_Check.sql to perform analyses and generate reports.
 
 # Notes
